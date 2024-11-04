@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt
 # Define the time step and time interval
 h = 0.1
 t = np.arange(0, 15, h)
-
+          
 # Define the initial velocity function v_0
 v_0 = (40 / (1 + np.exp(-t))) - 20
 V_n = v_0.copy()
